@@ -31,7 +31,9 @@ code {
 
 #column3{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   /* background-color: rgb(255, 0, 89); */
+  padding-right: 0px;
 }
 
