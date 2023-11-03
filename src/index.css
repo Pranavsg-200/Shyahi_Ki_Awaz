@@ -24,12 +24,14 @@ code {
 #column2{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(183, 255, 0);
+  /* background-color: rgb(183, 255, 0); */
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
-
 
 #column3{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255, 0, 89);
+  /* background-color: rgb(255, 0, 89); */
 }
+
