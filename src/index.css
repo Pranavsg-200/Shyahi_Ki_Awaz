@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container1{
+  height: 100vh;
+}
+
+#column1{
+  display: flex;
+  justify-content: space-between;
+}
+
+#column2{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(183, 255, 0);
+}
+
+
+#column3{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 0, 89);
+}
