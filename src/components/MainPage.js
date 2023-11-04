@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Sample_Report from "./Sample_Report.json";
 import RightTopHeaderConatiner from "./RightTopHeader/RightTopHeaderConatiner";
-import CarouselComponent from "./RightTopHeader/Carousel/CarouselComponent";
+import CarouselComponent from "./Carousel/CarouselComponent";
 
 export default function MainPage() {
   const [articles, setArticles] = useState(Sample_Report.results);
