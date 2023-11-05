@@ -1,0 +1,14 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px; /* Add padding around the containers */
+  border-top: 2px solid #000; /* Add a bold top border */
+  border-bottom: 2px solid #000; /* Add a bold bottom border */
+}
+
+.card {
+  border: none; /* Remove the border around the cards */
+  margin: 10px; /* Add margin between cards */
+}
+

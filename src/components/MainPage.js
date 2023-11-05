@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Sample_Report from "./Sample_Report.json";
 import RightTopHeaderConatiner from "./RightTopHeader/RightTopHeaderConatiner";
 import CarouselComponent from "./Carousel/CarouselComponent";
+import BelowContainer from "./BelowContainer/BelowContainer";
+import SmallCardComponent from "./Carousel/SmallCardComponent";
 
 export default function MainPage() {
   const [articles, setArticles] = useState(Sample_Report.results);
@@ -15,9 +17,17 @@ export default function MainPage() {
         <Row className="container1">
           <Col id="column1" lg={6} sm={12} xs={12} md={8}>
             <CarouselComponent articles={articles} />
+            <Col>
+              <SmallCardComponent articles={articles} />
+            </Col>
           </Col>
           <RightTopHeaderConatiner />
         </Row>
+      </Container>
+      <Container>
+        <Col lg={12} sm={12} xs={12} md={12}>
+          <BelowContainer />
+        </Col>
       </Container>
     </Container>
   );
