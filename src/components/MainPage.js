@@ -13,6 +13,17 @@ export default function MainPage() {
 
   return (
     <Container>
+      {/* Responsive Advertisement Container with Gap */}
+      <Row className="advertisement-container">
+        <Col lg={12} md={12} sm={12}>
+          {/* Add your advertisement component here */}
+          <div className="advertisement" style={{ backgroundColor: '#f0f0f0', padding: '20px', marginTop: '10px', marginBottom: '10px' }}>
+            {/* Your advertisement content goes here */}
+            Advertisement Content
+          </div>
+        </Col>
+      </Row>
+
       <Container>
         <Row className="container1">
           <Col id="column1" lg={6} sm={12} xs={12} md={8}>
@@ -24,6 +35,7 @@ export default function MainPage() {
           <RightTopHeaderConatiner />
         </Row>
       </Container>
+
       <Container>
         <Col lg={12} sm={12} xs={12} md={12}>
           <BelowContainer />
