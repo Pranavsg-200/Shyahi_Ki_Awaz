@@ -1,14 +1,41 @@
 .card-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 10px; /* Add padding around the containers */
-  border-top: 2px solid #000; /* Add a bold top border */
-  border-bottom: 2px solid #000; /* Add a bold bottom border */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-group {
+  border: none;
 }
 
 .card {
-  border: none; /* Remove the border around the cards */
-  margin: 10px; /* Add margin between cards */
+  box-shadow: none; /* Remove card box-shadow */
+  border: none !important; /* Remove any existing border */
 }
 
+.card-group::before,
+.card-group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-group::before {
+  border-top: 1px solid #000;
+}
+
+.card-group::after {
+  border-bottom: 1px solid #000;
+}
+
+/* Add margin around each card */
+.card {
+  margin: 10px;
+}
+
+/* Responsive styles for the cards */
+@media (max-width: 767px) {
+  .card {
+    width: calc(100% - 20px); /* Make cards full-width on smaller screens */
+    margin: 10px;
+  }
+}
