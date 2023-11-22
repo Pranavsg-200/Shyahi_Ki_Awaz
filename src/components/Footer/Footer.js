@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer__main">
           <div className="footer_left">
             <div className="footer__about">
-              <h2>FOLLOW US ON</h2>
+              <h2 style={{fontSize: '20px'}}>FOLLOW US ON</h2>
               <div className="footer__aboutSocial">
                 <img className="social" src={TwitterIcon} alt="Twitter" />
                 <img className="social" src={FacebookIcon} alt="Facebook" />
@@ -23,7 +23,7 @@ const Footer = () => {
                 <img className="social" src={YouTubeIcon} alt="YouTube" />
               </div>
 
-              <h2>OTHER TIMES GROUP NEWS SITES</h2>
+              <h2 style={{fontSize: '20px'}}>OTHER TIMES GROUP NEWS SITES</h2>
               <div className="footer__leftSection">
                 <ul>
                   <li>The Economic Times</li>
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
           <div className="footer__right">
             <div className="footer__rightSection">
-              <h2>POPULAR CATEGORIES</h2>
+              <h2 style={{fontSize: '20px'}}>POPULAR CATEGORIES</h2>
               <ul>
                 <li>Headlines</li>
                 <li>Sports News</li>
@@ -64,7 +64,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer__rightSection">
-              <h2>HOT ON THE WEB</h2>
+              <h2 style={{fontSize: '20px'}}>HOT ON THE WEB</h2>
               <ul>
                 <li>Janhvi Kapoor</li>
                 <li>Raai Laxmi</li>
@@ -79,7 +79,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer__rightSection">
-              <h2>TOP TRENDS</h2>
+              <h2 style={{fontSize: '20px'}}>TOP TRENDS</h2>
               <ul>
                 <li>Corona cases in India</li>
                 <li>Exit polls 2021</li>
@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
 
             <div className="footer__rightSection">
-              <h2>TRENDING TOPICS</h2>
+              <h2 style={{fontSize: '20px'}}>TRENDING TOPICS</h2>
               <ul>
                 <li>Randhir Kapoor</li>
                 <li>Pooja Hegde</li>
